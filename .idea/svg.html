@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <body>
 
@@ -32,8 +32,16 @@
   <circle cx="279" cy="181" r="7" stroke="black" stroke-width="3" fill="black" />
   <circle cx="280" cy="204" r="7" stroke="black" stroke-width="3" fill="black" />
   <polygon points="253,110 255,90 330,108" style="fill:orangered;stroke:red;stroke-width:1" />
-  <circle cx="235" cy="83" r="7" stroke="black" stroke-width="3" fill="black" />
-  <circle cx="275" cy="80" r="7" stroke="black" stroke-width="3" fill="black" />
+  <svg width="600" height="600">
+    <ellipse cx="235" cy="83" rx="7" ry="7"  style="fill:black" >
+
+      <animate attributeName="ry" attributeType="XML" begin="0s" dur="0.3s" fill="freeze" from="7" to="1"  />
+      <animate attributeName="ry" attributeType="XML" begin="0.5s" dur="0.2s" fill="freeze" from="1" to="7"   />
+
+
+    </ellipse>
+
+    <circle cx="275" cy="80" r="7" stroke="black" stroke-width="3" fill="black" />
   <path d="M 230 115 q 35 20 50 0" stroke="black"
         stroke-width="3" fill="none" />
 
