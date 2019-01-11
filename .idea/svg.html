@@ -1,8 +1,11 @@
+ 
+
+</html>
 <!DOCTYPE html>
 <html>
 <body>
 
-<h1>My first SVG</h1>
+<h1>Schneemann Aman Aman</h1>
 
 <svg width="1000" height="1000">
   <defs>
@@ -26,7 +29,11 @@
 
 
   <circle cx="180" cy="180" r="20"  stroke-width="3" fill="url(#grad1)" />
-  <circle cx="185" cy="340" r="30" stroke-width="3" fill="url(#grad1)" />
+   <g transform="translate(0,0)">
+  <circle cx="185" cy="340" r="30" stroke-width="3" fill="url(#grad1)" >
+      <animateMotion begin="3s"  path="M 0 0 L 15 0" dur="0.5s"  />
+    </circle>
+  </g>
 
   <circle cx="270" cy="160" r="7" stroke="black" stroke-width="3" fill="black" />
   <circle cx="279" cy="181" r="7" stroke="black" stroke-width="3" fill="black" />
